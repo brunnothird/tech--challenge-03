@@ -1,5 +1,6 @@
-Tech Challenge - Fase 3: Engenharia de Dados com AWS Glue & Spark
-Este repositório contém a solução desenvolvida para a etapa de processamento e transformação de dados do Tech Challenge (Fase 3). O projeto consiste em uma pipeline de dados serverless utilizando os recursos da AWS (Amazon Web Services) para catalogar, filtrar, transformar e armazenar dados da PNAD COVID-19 (Pesquisa Nacional por Amostra de Domicílios).
+**🚀 Tech Challenge - Fase 3: Engenharia de Dados com AWS Glue & Spark
+**Este repositório contém a solução desenvolvida para a etapa de processamento e transformação de dados do Tech Challenge (Fase 3). O projeto consiste em uma pipeline de dados serverless utilizando os recursos da AWS (Amazon Web Services) para catalogar, filtrar, transformar e armazenar dados da PNAD COVID-19 (Pesquisa Nacional por Amostra de Domicílios).
+
 
 📌 Objetivo do Projeto
 O objetivo principal deste script é extrair os dados brutos da pesquisa PNAD COVID-19 (previamente integrados e catalogados), realizar a seleção de variáveis críticas divididas em três pilares analíticos (Populacional, Clínico e Econômico) e salvar o resultado otimizado em formato colunar (.parquet) para futuras análises de People/Data Analytics e Business Intelligence.
@@ -12,6 +13,7 @@ Pilar Clínico: Sintomas reportados como febre (b0011), tosse (b0012), dificulda
 
 Pilar Econômico (Vulnerabilidade): Recebimento de auxílio emergencial (f0021).
 
+
 🛠️ Tecnologias e Ferramentas Utilizadas
 Python / PySpark: Linguagem e motor de processamento distribuído para manipulação eficiente de grandes volumes de dados.
 
@@ -23,6 +25,7 @@ Amazon S3 (Simple Storage Service): Armazenamento de objetos utilizado tanto par
 
 Apache Parquet: Formato de arquivo de armazenamento colunar, ideal para consultas analíticas de alta performance e redução de custos de armazenamento/processamento.
 
+
 🚀 Estrutura do Script de ETL
 O script em formato Jupyter Notebook (.ipynb) executa as seguintes etapas lógicas utilizando uma sessão do AWS Glue PySpark:
 
@@ -33,6 +36,7 @@ Seleção e Filtragem (Feature Selection): Reduz a dimensionalidade do dataset s
 Conversão e Validação: Converte o frame do Glue para um DataFrame Spark padrão para validação estrutural e exibição de amostras.
 
 Escrita Otimizada: Exporta os dados finais consolidados de volta para o Amazon S3 em formato Parquet com o modo de escrita configurado para sobrescrever dados antigos (overwrite).
+
 
 ## 📂 Estrutura do Repositório
 
