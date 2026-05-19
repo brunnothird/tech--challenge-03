@@ -1,5 +1,6 @@
-**🚀 Tech Challenge - Fase 3: Engenharia de Dados com AWS Glue & Spark
-**Este repositório contém a solução desenvolvida para a etapa de processamento e transformação de dados do Tech Challenge (Fase 3). O projeto consiste em uma pipeline de dados serverless utilizando os recursos da AWS (Amazon Web Services) para catalogar, filtrar, transformar e armazenar dados da PNAD COVID-19 (Pesquisa Nacional por Amostra de Domicílios).
+🚀 Tech Challenge - Fase 3: Engenharia de Dados com AWS Glue & Spark
+
+Este repositório contém a solução desenvolvida para a etapa de processamento e transformação de dados do Tech Challenge (Fase 3). O projeto consiste em uma pipeline de dados serverless utilizando os recursos da AWS (Amazon Web Services) para catalogar, filtrar, transformar e armazenar dados da PNAD COVID-19 (Pesquisa Nacional por Amostra de Domicílios).
 
 
 📌 Objetivo do Projeto
